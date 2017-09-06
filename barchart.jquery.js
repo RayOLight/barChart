@@ -444,7 +444,7 @@
 				var checkbox = document.createElement('div');
 
 				checkbox.classList.add( 'checkbox' );
-				checkbox.classList.add( options.hiddenBars.indexOf(bar.name) === -1 ? 'checked' : '' );
+				checkbox.classList.add( options.hiddenBars.indexOf(bar.name) === -1 ? 'checked' : 'none' );
 				checkbox.style.backgroundColor = bar.color;
 
 
